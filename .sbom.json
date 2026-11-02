@@ -1,0 +1,436 @@
+{
+  "gitlinks": {},
+  "vendored": [
+    {
+      "path": "pkgs",
+      "repository": null,
+      "commit": null,
+      "licenses": [
+        "pkgs/ant_switch/LICENSE",
+        "pkgs/jsmn/LICENSE",
+        "pkgs/mongoose/LICENSE",
+        "pkgs/noip2/COPYING"
+      ],
+      "evidence": [
+        "pkgs/EiBi/ALE.kiwi.csv",
+        "Makefile"
+      ]
+    },
+    {
+      "path": "web/pkgs",
+      "repository": null,
+      "commit": null,
+      "licenses": [
+        "web/pkgs/js/coloris/LICENSE",
+        "web/pkgs/js/sprintf/LICENSE",
+        "web/pkgs/xdLocalStorage/LICENSE"
+      ],
+      "evidence": [
+        "web/pkgs/Makefile",
+        "Makefile"
+      ]
+    }
+  ],
+  "models": [],
+  "external_libraries": [
+    {
+      "name": "Conditional source requirements declared by Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by Makefile.comp.inc",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "Makefile.comp.inc"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by e_cpu/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "e_cpu/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by extensions/ALE_2G/standalone_test/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "extensions/ALE_2G/standalone_test/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by extensions/DRM/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "extensions/DRM/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by extensions/FT8/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "extensions/FT8/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by extensions/FT8/ft8_lib/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "extensions/FT8/ft8_lib/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by extensions/HFDL/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "extensions/HFDL/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by extensions/HFDL/dumphfdl/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "extensions/HFDL/dumphfdl/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by extensions/HFDL/dumphfdl/src/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "extensions/HFDL/dumphfdl/src/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by extensions/HFDL/dumphfdl/src/libfec/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "extensions/HFDL/dumphfdl/src/libfec/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by extensions/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "extensions/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by pkgs/EiBi/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "pkgs/EiBi/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by pkgs/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "pkgs/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by pkgs/jsmn/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "pkgs/jsmn/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by pkgs/noip2/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "pkgs/noip2/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by pkgs/parson/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "pkgs/parson/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by pkgs/parson/package.json",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "pkgs/parson/package.json"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by rx/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "rx/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by rx/fldigi/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "rx/fldigi/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by tools/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "tools/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by verilog/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "verilog/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by verilog/rx/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "verilog/rx/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/ALE_2G/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/ALE_2G/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/CW_decoder/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/CW_decoder/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/CW_skimmer/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/CW_skimmer/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/DRM/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/DRM/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/FAX/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/FAX/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/FFT/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/FFT/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/FSK/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/FSK/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/FT8/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/FT8/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/FreeDV/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/FreeDV/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/HFDL/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/HFDL/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/IBP_scan/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/IBP_scan/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/IQ_display/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/IQ_display/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/Loran_C/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/Loran_C/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/NAVTEX/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/NAVTEX/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/SSTV/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/SSTV/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/S_meter/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/S_meter/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/TDoA/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/TDoA/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/colormap/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/colormap/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/devl/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/devl/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/digi_modes/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/digi_modes/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/example/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/example/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/iframe/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/iframe/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/prefs/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/prefs/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/s4285/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/s4285/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/sig_gen/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/sig_gen/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/timecode/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/timecode/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/extensions/wspr/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/extensions/wspr/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/kiwi/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/kiwi/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/openwebrx/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/openwebrx/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/pkgs/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/pkgs/Makefile"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by web/pkgs_maps/Makefile",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "web/pkgs_maps/Makefile"
+      ]
+    },
+    {
+      "name": "Full SDR server: Makefile/Makefile.comp.inc and extension-local CMake dependencies; not only the extracted ALE receiver",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "Makefile"
+      ]
+    }
+  ]
+}

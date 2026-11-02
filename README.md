@@ -160,3 +160,9 @@ A simple monitor for the Loran-C and under-development eLoran system. A recent W
 [![](http://www.kiwisdr.com/README/eLoran.780px.png)](http://www.kiwisdr.com/README/eLoran.png)
 
 [end-of-document]
+
+## Source SBOM
+
+See [repository source SBOM report](SBOM.md). Release reports are generated automatically.
+
+The [source SBOM policy](SBOM-POLICY.md) describes automatic release artifacts.

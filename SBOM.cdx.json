@@ -1,0 +1,1898 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "cmake:4feb0bce05305fc21ff6ff934188cc5d396b5df1c1eeb52dcbbd164af4cbb21c",
+      "name": "PkgConfig",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "extensions/HFDL/dumphfdl/src/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "PkgConfig REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:5e9fd5209f804e1e104899ac42666432a72fff034383f961f22e0b0b514ad840",
+      "name": "SQLite3",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "extensions/HFDL/dumphfdl/src/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "SQLite3"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:979c3204ad2ff2c425c15a659f2625c660718052e2debd732a448f5e45c35f27",
+      "name": "LiquidDSP",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "extensions/HFDL/dumphfdl/src/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "LiquidDSP REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:c0c0bd3f2863c1a783914d72d7278b42a24cb07204ee9178200c4a0740fcfd9e",
+      "name": "SoapySDR",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "extensions/HFDL/dumphfdl/src/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "SoapySDR NO_MODULE"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:0",
+      "name": "Conditional source requirements declared by Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"Makefile\", \"sha256\": \"376ad2c7e4dbe672f87bb76abe7c3d381db7faee12d492fd2b852efce6db94c1\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:1",
+      "name": "Conditional source requirements declared by Makefile.comp.inc",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"Makefile.comp.inc\", \"sha256\": \"3aa770956d7055481ec3ce7200944ecfed820c4307e382a023703f457b6d1644\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:10",
+      "name": "Conditional source requirements declared by extensions/HFDL/dumphfdl/src/libfec/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"extensions/HFDL/dumphfdl/src/libfec/CMakeLists.txt\", \"sha256\": \"95b963c558c675607cac43ee087d31b865ef1796484bd8ead02de2e7a48dd336\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:11",
+      "name": "Conditional source requirements declared by extensions/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"extensions/Makefile\", \"sha256\": \"0f15dcbe957547665de17473ecfb1e2301a8089b591e170cc453e15549d015b4\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:12",
+      "name": "Conditional source requirements declared by pkgs/EiBi/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"pkgs/EiBi/Makefile\", \"sha256\": \"bf19b399154dc926c54d80e6fc4e96ae663edd11ef38985a10c3b4d58e937815\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:13",
+      "name": "Conditional source requirements declared by pkgs/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"pkgs/Makefile\", \"sha256\": \"cef8daba0576cbcbe71cb85d48076a90db9b7169699b271e5bd527674e058e18\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:14",
+      "name": "Conditional source requirements declared by pkgs/jsmn/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"pkgs/jsmn/Makefile\", \"sha256\": \"dc83e7df2aca76441b0d7d3bed482c50964b352f57a9a9061d821b1b55bb7239\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:15",
+      "name": "Conditional source requirements declared by pkgs/noip2/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"pkgs/noip2/Makefile\", \"sha256\": \"4c5bcaaadedcd5dd282740cc8ca04b29adfded8282dad7691005b1aa8626c7a4\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:16",
+      "name": "Conditional source requirements declared by pkgs/parson/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"pkgs/parson/Makefile\", \"sha256\": \"410200aa9dc87ef7b939dc9178d16b44d040c03b1bf379e35de2f8fdce684479\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:17",
+      "name": "Conditional source requirements declared by pkgs/parson/package.json",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"pkgs/parson/package.json\", \"sha256\": \"761c4680ac704d7aab7a894e200cff267595013b079d8498f4e08d47e3624306\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:18",
+      "name": "Conditional source requirements declared by rx/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"rx/Makefile\", \"sha256\": \"d3164d694c7754e76a63250639946d6435fa12f7a1044bd6c93fad13ea61e4a0\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:19",
+      "name": "Conditional source requirements declared by rx/fldigi/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"rx/fldigi/Makefile\", \"sha256\": \"7443aca89cd6a7118866b7ae06208a7c16c649a029ddff35089cbd179efcf50e\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:2",
+      "name": "Conditional source requirements declared by e_cpu/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"e_cpu/Makefile\", \"sha256\": \"954a3f7a2d70a6cd3f3ab65a7717e4977b31c9e45686fbec0e6625a539b026f7\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:20",
+      "name": "Conditional source requirements declared by tools/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"tools/Makefile\", \"sha256\": \"dea1f16e7b2d93010cde0ef75619c5f8ed687dbe922c15accf113aa1ee1844fe\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:21",
+      "name": "Conditional source requirements declared by verilog/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"verilog/Makefile\", \"sha256\": \"506db167ef7eb7b8756d0f997e3a744353f5ef10ab1850a94ed3b9a0bb553aa9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:22",
+      "name": "Conditional source requirements declared by verilog/rx/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"verilog/rx/Makefile\", \"sha256\": \"52390c2143cdbd3188fb0c758580b9dcca87c8333561dd2c5ff2c03cc2603066\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:23",
+      "name": "Conditional source requirements declared by web/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/Makefile\", \"sha256\": \"31274311baa06ac4e39e0b7040b782610903f651792ea16b37a9b67e08ce14f3\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:24",
+      "name": "Conditional source requirements declared by web/extensions/ALE_2G/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/ALE_2G/Makefile\", \"sha256\": \"c175972f6f3ec30185b32909f52d7c8199576536a8ba1c9f45553a0c8d025efd\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:25",
+      "name": "Conditional source requirements declared by web/extensions/CW_decoder/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/CW_decoder/Makefile\", \"sha256\": \"8b661947f763cff8b6fed73b9c449e99f58bd2387a7f3ba4068da3e9fefe3613\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:26",
+      "name": "Conditional source requirements declared by web/extensions/CW_skimmer/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/CW_skimmer/Makefile\", \"sha256\": \"31e82309bb96bc8b7fc8162d554f7aba2e3176ec8ee3d561845ac488844dd42b\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:27",
+      "name": "Conditional source requirements declared by web/extensions/DRM/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/DRM/Makefile\", \"sha256\": \"1e1c2bc82310115b070c238cced5cef0f3804e68fe977c84c14784d27504f75f\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:28",
+      "name": "Conditional source requirements declared by web/extensions/FAX/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/FAX/Makefile\", \"sha256\": \"307e9c39231324e2bf643d36ee0ee9499e0130ce9707749744da783574a2deac\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:29",
+      "name": "Conditional source requirements declared by web/extensions/FFT/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/FFT/Makefile\", \"sha256\": \"18a6b7c52c8f1173e600faaf022c42d6573ab0ff370467f827df902d7cabee59\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:3",
+      "name": "Conditional source requirements declared by extensions/ALE_2G/standalone_test/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"extensions/ALE_2G/standalone_test/Makefile\", \"sha256\": \"377cc0dcce81f71c92cffe05459a200a5c631c8326ddb291169cde2fd46c46f5\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:30",
+      "name": "Conditional source requirements declared by web/extensions/FSK/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/FSK/Makefile\", \"sha256\": \"25ff98ee45bec2e260483a789b714a88c64aedabfe85080330aeab6d3cd69f07\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:31",
+      "name": "Conditional source requirements declared by web/extensions/FT8/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/FT8/Makefile\", \"sha256\": \"b9681e26100cb8e209564bf548a4b4136910d6b8fedad09dc2af015d222fe540\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:32",
+      "name": "Conditional source requirements declared by web/extensions/FreeDV/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/FreeDV/Makefile\", \"sha256\": \"c1ce24144eb76b7e4d3683809cc29457707893a65e9c1bf8f39d3f3b7851729f\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:33",
+      "name": "Conditional source requirements declared by web/extensions/HFDL/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/HFDL/Makefile\", \"sha256\": \"85aa33d686885d3008d1d05a7c17747cd8d7384c2cf8e09faee146ad9d3ebab9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:34",
+      "name": "Conditional source requirements declared by web/extensions/IBP_scan/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/IBP_scan/Makefile\", \"sha256\": \"0a7915a26d86f8c8d78117c4506ba2f590353eaa19a7ca24bf77ad56dca8eefe\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:35",
+      "name": "Conditional source requirements declared by web/extensions/IQ_display/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/IQ_display/Makefile\", \"sha256\": \"1b44c8088270fcb326c0b39e041505c9ef7c7ff42ba5a991069197c2a1721ec7\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:36",
+      "name": "Conditional source requirements declared by web/extensions/Loran_C/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/Loran_C/Makefile\", \"sha256\": \"d9bbf9854182f7f15498e1cd0e41393eaa7d1f0a918c5a40cb4e81b0218055b3\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:37",
+      "name": "Conditional source requirements declared by web/extensions/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/Makefile\", \"sha256\": \"a677a6cbfd0c22d4a6db8ddbef07861283e5aa599a45a9125615c5a39473cc33\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:38",
+      "name": "Conditional source requirements declared by web/extensions/NAVTEX/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/NAVTEX/Makefile\", \"sha256\": \"9b033afa01af5d12154ff152cc4127b88216c756b6ef8512f3994b8662088f43\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:39",
+      "name": "Conditional source requirements declared by web/extensions/SSTV/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/SSTV/Makefile\", \"sha256\": \"35be7b4ff6aa47d4c3a795c227b08f35f25ad6f3052cf371d5e969142b6f3838\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:4",
+      "name": "Conditional source requirements declared by extensions/DRM/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"extensions/DRM/Makefile\", \"sha256\": \"e77ea0f1f980acba7e31e80046a30c18f030110887644a01c8d6f26c8c417dac\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:40",
+      "name": "Conditional source requirements declared by web/extensions/S_meter/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/S_meter/Makefile\", \"sha256\": \"b0f7aa61211ee7fece7d76b3a761954ee9bf6601593ecb8f47d4a33e50594227\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:41",
+      "name": "Conditional source requirements declared by web/extensions/TDoA/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/TDoA/Makefile\", \"sha256\": \"6064095d7c4556919d65ad53fb49e0e7827f2d22a6e2f5acd4f5fb0717bee79f\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:42",
+      "name": "Conditional source requirements declared by web/extensions/colormap/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/colormap/Makefile\", \"sha256\": \"5e591fcd46680a2fc2e566f22661612713aa20f9104f24d441e1e9e4f1ef859b\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:43",
+      "name": "Conditional source requirements declared by web/extensions/devl/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/devl/Makefile\", \"sha256\": \"ac13aa33161b267eb13708bfcbf2f986e4f81b3a206a28eda0408168920cf653\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:44",
+      "name": "Conditional source requirements declared by web/extensions/digi_modes/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/digi_modes/Makefile\", \"sha256\": \"f30f628fb6df0412b190e5d07e21662d677f0a8b54ff8a6ee641ba1d17af3dec\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:45",
+      "name": "Conditional source requirements declared by web/extensions/example/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/example/Makefile\", \"sha256\": \"b6f5d66d8bac0e489bb6111f551973390726b195a4a78c2ada1bd9301fb58deb\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:46",
+      "name": "Conditional source requirements declared by web/extensions/iframe/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/iframe/Makefile\", \"sha256\": \"289605e3379f74369a8e9b6e7c5263551e5e29c440b3ed2bea0337d9bd3fa97c\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:47",
+      "name": "Conditional source requirements declared by web/extensions/prefs/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/prefs/Makefile\", \"sha256\": \"c64786d4e1f995ae153968fbef0a99ec0ac797476227ac334fcc96e8f45d8aa1\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:48",
+      "name": "Conditional source requirements declared by web/extensions/s4285/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/s4285/Makefile\", \"sha256\": \"ad6d79232d6bd248d3768d5de112745e59607796669a0262a9db2e0e93122422\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:49",
+      "name": "Conditional source requirements declared by web/extensions/sig_gen/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/sig_gen/Makefile\", \"sha256\": \"8811925d4c5ced2d5090c007e68aa9dd190c8219c9dbe06ea7e43df6bc670b50\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:5",
+      "name": "Conditional source requirements declared by extensions/FT8/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"extensions/FT8/Makefile\", \"sha256\": \"ac05bbc9db231015c528a63dd99754ff308357e35f4fc243acfb0434d7b3c1fc\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:50",
+      "name": "Conditional source requirements declared by web/extensions/timecode/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/timecode/Makefile\", \"sha256\": \"958480d9d27ae29121a8f2a3f342eb34261db2c687f7749acf8b0e323a202e30\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:51",
+      "name": "Conditional source requirements declared by web/extensions/wspr/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/extensions/wspr/Makefile\", \"sha256\": \"0fbdc681cd78b6501b2aca7f2f1d71b2b89f200fe6df65414028cf5e114eea20\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:52",
+      "name": "Conditional source requirements declared by web/kiwi/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/kiwi/Makefile\", \"sha256\": \"075baa9c377e4bb67361ac37c4ea7f571562ade7bd7029817f7f40bd3cc2cadb\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:53",
+      "name": "Conditional source requirements declared by web/openwebrx/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/openwebrx/Makefile\", \"sha256\": \"8751f7f72ac8f6ab73c1212f9c684c6d7a378480bcc2bcceebabb02b2903a59e\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:54",
+      "name": "Conditional source requirements declared by web/pkgs/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/pkgs/Makefile\", \"sha256\": \"7b954f84f25d511e74930b7b95731c68038032604e41b9b31287337cc8b6f0e7\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:55",
+      "name": "Conditional source requirements declared by web/pkgs_maps/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"web/pkgs_maps/Makefile\", \"sha256\": \"27f24744228f1ebdceb728f872974455f740d3a4d84448a80e6ab32d579b949d\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:56",
+      "name": "Full SDR server: Makefile/Makefile.comp.inc and extension-local CMake dependencies; not only the extracted ALE receiver",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"Makefile\", \"sha256\": \"376ad2c7e4dbe672f87bb76abe7c3d381db7faee12d492fd2b852efce6db94c1\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:6",
+      "name": "Conditional source requirements declared by extensions/FT8/ft8_lib/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"extensions/FT8/ft8_lib/Makefile\", \"sha256\": \"3bb185652e13af03aa8ae7cb54f272b1ed23548550c4bc3f8608c186507e3309\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:7",
+      "name": "Conditional source requirements declared by extensions/HFDL/Makefile",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"extensions/HFDL/Makefile\", \"sha256\": \"7421f2cbdf00176087f127ef6adf8db390c99a2bb168d4f18319a0876b101dba\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:8",
+      "name": "Conditional source requirements declared by extensions/HFDL/dumphfdl/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"extensions/HFDL/dumphfdl/CMakeLists.txt\", \"sha256\": \"b3adda164fc929eb537788a596e78a0b4b41b3e8db30d37a0bb1d9f7da212429\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:9",
+      "name": "Conditional source requirements declared by extensions/HFDL/dumphfdl/src/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"extensions/HFDL/dumphfdl/src/CMakeLists.txt\", \"sha256\": \"06f32beb52f18d70efa8cd5c3febbab7b4f8449ef8c031a4ae133622f2a9cfb3\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "vendored:pkgs",
+      "licenses": [
+        {
+          "license": {
+            "name": "License evidence; see declared files"
+          }
+        }
+      ],
+      "name": "pkgs",
+      "properties": [
+        {
+          "name": "sbom:license-evidence",
+          "value": "[{\"path\": \"pkgs/ant_switch/LICENSE\", \"sha256\": \"502af2ce41ff61f9b0d78464cb4d1ad3438c481b74461dd17131754a3edcfb33\"}, {\"path\": \"pkgs/jsmn/LICENSE\", \"sha256\": \"4675b94a50d2afe811c52785463c854f1156056632cce17cc7133939eac8ed55\"}, {\"path\": \"pkgs/mongoose/LICENSE\", \"sha256\": \"2afe05f3fb29b9009fab652695624a7f519f684e757c78c97bce271be6e92e5f\"}, {\"path\": \"pkgs/noip2/COPYING\", \"sha256\": \"5aaf7e9e1790c6e372b6c5dec8c6c4b60504414a8c56f64c3071d281d3c251fa\"}]"
+        },
+        {
+          "name": "sbom:license-resolution",
+          "value": "unresolved; manual review required"
+        },
+        {
+          "name": "sbom:role",
+          "value": "declared-vendored-source"
+        },
+        {
+          "name": "sbom:source-manifest",
+          "value": "[{\"path\": \"Makefile\", \"sha256\": \"376ad2c7e4dbe672f87bb76abe7c3d381db7faee12d492fd2b852efce6db94c1\"}, {\"path\": \"pkgs/EiBi/ALE.kiwi.csv\", \"sha256\": \"694286b6aa8a6f927eaa19d254adbe0704d20885604aa56bfb1b9a9b7b13a97b\"}, {\"path\": \"pkgs/EiBi/HOWTO.update.database.txt\", \"sha256\": \"4d98530aed3bc13feaabe4e6703d97808d0e7cb633bf073da8733251ad820661\"}, {\"path\": \"pkgs/EiBi/Makefile\", \"sha256\": \"bf19b399154dc926c54d80e6fc4e96ae663edd11ef38985a10c3b4d58e937815\"}, {\"path\": \"pkgs/EiBi/eibi_proc.cpp\", \"sha256\": \"8a133db48cc24d1ca19d629a3cd457a2810d6e355e88f35d0b5259d581ca4fd8\"}, {\"path\": \"pkgs/Makefile\", \"sha256\": \"cef8daba0576cbcbe71cb85d48076a90db9b7169699b271e5bd527674e058e18\"}, {\"path\": \"pkgs/TNT_JAMA/.gitignore\", \"sha256\": \"3ba2020da55f76620d61950cb88f0d6cc0d5852eae7b2c03f8487a64c87da959\"}, {\"path\": \"pkgs/TNT_JAMA/README.md\", \"sha256\": \"b0b6b5500b5cff3bd6247f031441bdfe2c0de7e4182a12e78d5c4c16f522c6d3\"}, {\"path\": \"pkgs/TNT_JAMA/jama.h\", \"sha256\": \"d76a601ca9f529637d65582c4bfcff355b0b28b9a1b2e230835d28c8f0b9548a\"}, {\"path\": \"pkgs/TNT_JAMA/jama/cholesky.h\", \"sha256\": \"e381d24200184f2d912a98dd79c7cb6bab9fa9ec9952f0f1f127d425bfc842be\"}, {\"path\": \"pkgs/TNT_JAMA/jama/eig.h\", \"sha256\": \"a32d724a3677bf3d5edbaf0e2f878371d5dfd037ed2d96ce542d1a5f3387eaff\"}, {\"path\": \"pkgs/TNT_JAMA/jama/lu.h\", \"sha256\": \"e0dd58eae0e268389687f62907ca9f6bd5508f12f2fe6fb0007e4dd86edff1e5\"}, {\"path\": \"pkgs/TNT_JAMA/jama/qr.h\", \"sha256\": \"8e7e36a1f8a5352dd309070af12060939ba7c461a41b957ccba342cbcbd8bb1e\"}, {\"path\": \"pkgs/TNT_JAMA/jama/svd.h\", \"sha256\": \"9de78297fea1ab8999f0829a5af4657077b03c850959b9d26da8e30c77085f59\"}, {\"path\": \"pkgs/TNT_JAMA/tnt.h\", \"sha256\": \"0ef8d37165730f3e572a33d9bcaf1741a30ea4b2f1edc6ace9b2601804406d96\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/array1d.h\", \"sha256\": \"eb4f71f2cca5220eff486fcc47840bdd3b42d2ce2114363576d91b1b2431f343\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/array1d_utils.h\", \"sha256\": \"f8918d55708f30f692834294c23cf9b3fe8d3ac3f328853643e7d4e6c067639c\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/array2d.h\", \"sha256\": \"efd8738ebab3ee4efe60c2fb64b9c9432418e92f832bd284833bcd0860416d52\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/array2d_utils.h\", \"sha256\": \"6eb9ece507c2e30774d4f50c35e309f9557f9c5830cbb934475db5aa81668529\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/array3d.h\", \"sha256\": \"ee64419e10e4df3da2324b744b624c811edcc61f8fcafb56ab5b3db4704b4838\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/array3d_utils.h\", \"sha256\": \"f1534f28e954b16cef3246f1fc715b3f1ea1e53b419a8559a0e8e0154712f0b1\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/cmat.h\", \"sha256\": \"ad40ed9bff0aabd8007f57d8bff89f6c621d55d11fde045e36f5c5e91055e8bf\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/fortran_array1d.h\", \"sha256\": \"ea5928a09c15c8cfb4f71f91699dd3d1ec2ab424460fe01de5a26c295a74b821\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/fortran_array1d_utils.h\", \"sha256\": \"195512389b96008c9ba2bead927ce0f2af9af1ae34f5cb071202dbe35e5f2e35\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/fortran_array2d.h\", \"sha256\": \"430a103bd69b15fef8c3dc7f53ddfe2e8b4e9580f3c74774e936a2f1c2e0fcda\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/fortran_array2d_utils.h\", \"sha256\": \"8f453b42af86a14d917e976aefa5e3b8e4a62178cd45385eeb88288007ae5ef5\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/fortran_array3d.h\", \"sha256\": \"4cc65d51b06abb24a5d6c5a89c74fc4e97918b2966b10e28095a2a19a55e0100\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/fortran_array3d_utils.h\", \"sha256\": \"a27d39de0682b21c03d8a845978c513a13259d04857a16157c0a6a8acc52071d\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/i_refvec.h\", \"sha256\": \"47896f1b3b7a31f2b3cd9c97a0c5e9998b1635ce861815f9c1d11cf3ee130f19\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/math_utils.h\", \"sha256\": \"38c3079a0e3892805223d4e06338208b7bc74b882537654e511023703f9bd1fd\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/sparse_matrix_csr.h\", \"sha256\": \"ceae6ee36bb12e56a9cec50ccba5b5f7c0e2331e291ac225460ab658fcf2e34d\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/stopwatch.h\", \"sha256\": \"9fbac197f5a6db4839cf9e8275c5801758bd68e29b61635cdc6b3f5cc2561343\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/subscript.h\", \"sha256\": \"af9bc14d1f408f8c81d3f3459d3c6324a63640406d994a076479cf61154de231\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/utils.h\", \"sha256\": \"822cbf7e98c35432bae0fcb8e0242d2515370cd39f29d5352d274d5dca04e345\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/vec.h\", \"sha256\": \"88195e04b9b8cda1b4f083c4157f17c88481f814a1c0e284e60c02c7a06c4439\"}, {\"path\": \"pkgs/TNT_JAMA/tnt/version.h\", \"sha256\": \"31836abf45fa1f815546fec6d120c6d6c30796f6543d08c7cc5543860e6107d2\"}, {\"path\": \"pkgs/ant_switch/LICENSE\", \"sha256\": \"502af2ce41ff61f9b0d78464cb4d1ad3438c481b74461dd17131754a3edcfb33\"}, {\"path\": \"pkgs/ant_switch/README.md\", \"sha256\": \"2112cb55e9a74582899092e5a77cf93d9e0e6fc543291a230be6dd9e3792710d\"}, {\"path\": \"pkgs/ant_switch/ant-switch-frontend\", \"sha256\": \"0a3a11e50f1f1c823fdabe31791defeb51d1d342c545444a39f623f9b8dee264\"}, {\"path\": \"pkgs/ant_switch/ant_switch.cpp\", \"sha256\": \"9d80bf6a712fe05cfba9960a2028b09288339711ac9936e892d1d47114634442\"}, {\"path\": \"pkgs/ant_switch/ant_switch.h\", \"sha256\": \"29bcaad5cde51b8dad3536c8f8e6c32853de2935b8234cb8f6a405b0e135cbab\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-arduino-netshield\", \"sha256\": \"a7a5311eaa64eba337a8ae658318be64fb187cd2e24621600e54a4c102e778a1\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-beagle-gpio\", \"sha256\": \"7aedf410cccee800575f72ce672e21359c07b59d09fb8a77a48754ff7abdddbe\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-kmtronic\", \"sha256\": \"478874a9f491cc690fc59722cd603e59012544fc6352ebedfdbe1d3e564086ed\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-kmtronic-2ch\", \"sha256\": \"d4a3e4cdd32bf2e5c111f22b95749af46582844e4bcde435fcc8fd0131cb66c1\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-kmtronic-udp\", \"sha256\": \"8767353112a0ee70d2268de20646eaf3cb4ee2f8f98498a4a476a100abcd4f42\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-ms-s3a-web\", \"sha256\": \"607757db7b506eb647dcb52ff3fc955dd8db2fedda0bce62e3cb62e3736f752a\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-ms-s4a-web\", \"sha256\": \"93e91e30b313ede7b9b10d2429e30e84951c0914db9813f3fb3262ff07b680d1\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-ms-s5a-web\", \"sha256\": \"dbc99254f8f27878ee53ef149e85b91230d54cf223da20fb7515a92ebec1f6a8\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-ms-s6a-web\", \"sha256\": \"4610ad004da5eb8ffd414d9d1d0ea5605e744ea926555001e978c7df67382e39\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-ms-s7-web\", \"sha256\": \"884fbfb7aa889c56111b4d3c1d56bbe2269c897464bc7641490495099f3dbc96\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-ms-s7a-web\", \"sha256\": \"3c1362a21ddaf5f516503b9ace4938d632637d3d5c241c76fdff11c6aba3277c\"}, {\"path\": \"pkgs/ant_switch/backends/ant-switch-backend-snaptekk\", \"sha256\": \"f2b2895b9226e34d2d0a99315a9ed5b5708bccab706036693d00935cdf399f0c\"}, {\"path\": \"pkgs/ant_switch/backends/common/ant-switch-backend-ms-sNa-web\", \"sha256\": \"0338eb7cdfd1049fcf8cbcf85e756155bed4b93e611680c4f79d669a09f35107\"}, {\"path\": \"pkgs/ant_switch/docs/ant-switch-backend-arduino-nano-netshield.txt\", \"sha256\": \"eace683bf0af1ecf6e7315fbc3212d14a92ed6dcc490996b6f05b02fe07377c5\"}, {\"path\": \"pkgs/ant_switch/docs/ant-switch-backend-beagle-gpio.txt\", \"sha256\": \"20d975a399ba3c73a8ef783a78a3a1dbcaf6bad52cf3e7f66616f4fe28898922\"}, {\"path\": \"pkgs/ant_switch/docs/ant-switch-backend-example.txt\", \"sha256\": \"5bef93292a426bb54a1dfad2038d0f60712d66bc70b1533f752d16d60e3ec1c8\"}, {\"path\": \"pkgs/ant_switch/docs/ant-switch-backend-kmtronic-udp.txt\", \"sha256\": \"b722622c83bb02a07438575f6c044a6198b616929cb1effc6c7563f06228c99d\"}, {\"path\": \"pkgs/ant_switch/docs/ant-switch-backend-kmtronic.txt\", \"sha256\": \"38abd8f7f176f784da3e84c05e5619138a4c11fc0d75319fe21569e0c158f8ad\"}, {\"path\": \"pkgs/ant_switch/docs/ant-switch-backend-ms-s4a-web.txt\", \"sha256\": \"af618ec6fba16252d2e0cdebae61fd1d90e1052b273dcc9400576c2772a328d0\"}, {\"path\": \"pkgs/ant_switch/docs/ant-switch-backend-ms-s7-web.txt\", \"sha256\": \"94b888936898882db401071ba13d9b909691dccb44f5eadace500b8bd91d227c\"}, {\"path\": \"pkgs/ant_switch/docs/ant-switch-backend-snaptekk.txt\", \"sha256\": \"4c65cd17e5faf6603a28e87453289cb2c671ec52f7bbf87c1d0f9cc47068d222\"}, {\"path\": \"pkgs/ant_switch/docs/antenna-schedules-using-crontab.txt\", \"sha256\": \"72b8f4160fcca9f8d8240aa318a8c649196008ec8bdb29428b88306de05c4885\"}, {\"path\": \"pkgs/ant_switch/docs/arduino-nano-netshield/ant_switch_arduino_netshield.ino\", \"sha256\": \"0f1808cddd36aa2d0690d1f40e0ff556676317cd103b6f1b8bdb44b5fda3f4d9\"}, {\"path\": \"pkgs/jsmn/LICENSE\", \"sha256\": \"4675b94a50d2afe811c52785463c854f1156056632cce17cc7133939eac8ed55\"}, {\"path\": \"pkgs/jsmn/Makefile\", \"sha256\": \"dc83e7df2aca76441b0d7d3bed482c50964b352f57a9a9061d821b1b55bb7239\"}, {\"path\": \"pkgs/jsmn/README.md\", \"sha256\": \"98a9d107da8f665ef6548b02477fb4169b9c1218b9329f2dc96265b85df5c8fd\"}, {\"path\": \"pkgs/jsmn/example/jsondump.c\", \"sha256\": \"dddaa6e220fef42aa0d5821473380c05961c2f6aa0b990fff1a62936e4ff9d54\"}, {\"path\": \"pkgs/jsmn/example/simple.c\", \"sha256\": \"8f0451b9ada16f0bbd53f2fbad08477bfbdb78e6b4702750f9da26174eb64174\"}, {\"path\": \"pkgs/jsmn/jsmn.cpp\", \"sha256\": \"1702b8b42f54cfea8f07fe32ea8b544ae7f1792d4c90c61d8c1faf4ce8ae9656\"}, {\"path\": \"pkgs/jsmn/jsmn.h\", \"sha256\": \"790fd0c6b211eb718f9f0d9e80d7c67a4a7cdedfd08427222184bb22dbdd321d\"}, {\"path\": \"pkgs/jsmn/library.json\", \"sha256\": \"a27867dc70f2caf42d40cd9ad042f2c3c716dde7a6bf9595cb4b750d582385e4\"}, {\"path\": \"pkgs/jsmn/test/test.h\", \"sha256\": \"54c28e0551a797ca624d84dc94fa21b5867d290220018be44eb9a4307c1858e9\"}, {\"path\": \"pkgs/jsmn/test/tests.c\", \"sha256\": \"f14264a9f3e4c37e61b9714cdab3a828993ee90370bb6af5f855edf45bba2842\"}, {\"path\": \"pkgs/jsmn/test/testutil.h\", \"sha256\": \"3577cdc3aa34482ff947dfc4b10b0ffe4f17055d09cb62cb5dc01bdfa949e6d2\"}, {\"path\": \"pkgs/mongoose/LICENSE\", \"sha256\": \"2afe05f3fb29b9009fab652695624a7f519f684e757c78c97bce271be6e92e5f\"}, {\"path\": \"pkgs/mongoose/Makefile.inc\", \"sha256\": \"c6de783d394af64748f8dfdcf2d05672cad6e4ce7e4913d75738188735a42a92\"}, {\"path\": \"pkgs/mongoose/README.md\", \"sha256\": \"2f7b730656b1c00d5774a0ea634efc63909b7726c41c8c75fe2b1e71054919d1\"}, {\"kind\": \"symlink-target-blob-not-followed\", \"path\": \"pkgs/mongoose/mongoose.cpp\", \"sha256\": \"fc96d135203821009c39bba612d1f5e13b7fa8d779019d64215ce2fddba7a6fb\"}, {\"kind\": \"symlink-target-blob-not-followed\", \"path\": \"pkgs/mongoose/mongoose.h\", \"sha256\": \"618b75f4ba3857a4b456ecc537203402ebb6ec5d20bcc17b4365c6435e9e14ae\"}, {\"path\": \"pkgs/mongoose/mongoose/mongoose_5.6.cpp\", \"sha256\": \"713d74e8aa2d33ecbab3a0ad033148385f236a4ab1e8daeca2ff0c26f0d8e755\"}, {\"path\": \"pkgs/mongoose/mongoose/mongoose_5.6.h\", \"sha256\": \"1026685166f353eec5c6970a7dbe33ab4f4b848deb6e3bd950b6cc6284d95f41\"}, {\"path\": \"pkgs/mongoose/mongoose/mongoose_7.14.cpp\", \"sha256\": \"78c68fb81ab51d38060dda645c6ee4faf0f9487672932b453259e536ec18e652\"}, {\"path\": \"pkgs/mongoose/mongoose/mongoose_7.14.h\", \"sha256\": \"12bd947be391a65295e199bc31545ac4c4e5b308ef5675ddd2b60063e8975038\"}, {\"path\": \"pkgs/mongoose/mongoose_config.h\", \"sha256\": \"256ecbcaf4618e094728a1e98948b038267a0e480fb2a36cc0bc1c43dab10fd7\"}, {\"path\": \"pkgs/noip2/COPYING\", \"sha256\": \"5aaf7e9e1790c6e372b6c5dec8c6c4b60504414a8c56f64c3071d281d3c251fa\"}, {\"path\": \"pkgs/noip2/LEEME.PRIMERO\", \"sha256\": \"508336a0ec3e89a849bf95b68ff22a0c16cfcff1b8371d3b8da08adf829393b5\"}, {\"path\": \"pkgs/noip2/LIESMICH.ERST.deutsch\", \"sha256\": \"2ce532453817de99b5904400f85995a983f62ca468827ba1385c029031186559\"}, {\"path\": \"pkgs/noip2/LISEZMOI.ENPREMIER\", \"sha256\": \"4937a6910aa2a12cd407149d03e5308f7c80056262af384f7e51cf84c98d4b54\"}, {\"path\": \"pkgs/noip2/Makefile\", \"sha256\": \"4c5bcaaadedcd5dd282740cc8ca04b29adfded8282dad7691005b1aa8626c7a4\"}, {\"path\": \"pkgs/noip2/README.FIRST\", \"sha256\": \"dc0550bf2ed0174e05bbd330b47f374271e48844ec12f1ac8bf1c8b01fad087e\"}, {\"path\": \"pkgs/noip2/README.FIRST-SWE\", \"sha256\": \"ec9a7aca0fa868ba7856b60a462391ff172c6a8538eb0e454d362ffc9b9e330b\"}, {\"path\": \"pkgs/noip2/README.FIRST.FRANCAIS\", \"sha256\": \"d85fd8a79ff499861bc9c4b8e2ad803fa19125ec01e0eeeef6aad26254792e84\"}, {\"path\": \"pkgs/noip2/README.FIRST.ITALIANO\", \"sha256\": \"b3a0f774699830c1244f6318b75cdd9f08c5b3f4b2e5fd554caa22515ee275ca\"}, {\"path\": \"pkgs/noip2/README.FIRST.JAPANESE\", \"sha256\": \"faeab33eb347b82b4f363a21b4e173b9addc5bb0a810fd0f7f752f68f8283be5\"}, {\"path\": \"pkgs/noip2/README.FIRST.pt_BR\", \"sha256\": \"10fe76a816c5bdaee381ac8427bb012df41e562508f5addd98526a466dc311eb\"}, {\"path\": \"pkgs/noip2/README.FIRST_PT\", \"sha256\": \"266486ac7fcaf7c47629bf98af11fbfbdbdc276499ae3056405ef0b5021b2ca0\"}, {\"path\": \"pkgs/noip2/arm32/noip2\", \"sha256\": \"3fcdd0f9f747bcecc16acad32b6feb2ccf3ad1adaee4a3e08de5372eac2ba39d\"}, {\"path\": \"pkgs/noip2/arm64/noip2\", \"sha256\": \"0e4bd10b26d455c3abe58c1c94969dba2bfa7577d88cf98450f25f4409232f24\"}, {\"path\": \"pkgs/noip2/debian.noip2.sh\", \"sha256\": \"07712294a120894fb9b1676d8483b9309b4edaaeb455c8a20be7ea07ae2ac4b7\"}, {\"path\": \"pkgs/noip2/gentoo.noip2.sh\", \"sha256\": \"139158339966e6f3ebb4505ba8db18dab8714e1ef748ad42a80f83df1efad041\"}, {\"path\": \"pkgs/noip2/mac.osx.startup\", \"sha256\": \"cae16e6170aadee8c4a33cbb761111c05ad7774bbcdeae8493d7eb2402110b64\"}, {\"path\": \"pkgs/noip2/noip2.c\", \"sha256\": \"880a582d53d136cf0e09410652d7e7f4155a7bbe068a3af493505795e30bf909\"}, {\"path\": \"pkgs/noip2/noip2.c.orig\", \"sha256\": \"83ca252b630641515a0c13f8e33a7391af92073654bd2918e51956b33d4f87e8\"}, {\"path\": \"pkgs/noip2/redhat.noip.sh\", \"sha256\": \"918d93af12faffdaaf823d4c6dfcb16b9320c2aee82d331c434a8e8cee442259\"}, {\"path\": \"pkgs/parson/.gitignore\", \"sha256\": \"43af9bc0cbd0669bef2ec127932ad112e4d1a1601848dc589167e5d4ae623ff6\"}, {\"path\": \"pkgs/parson/Makefile\", \"sha256\": \"410200aa9dc87ef7b939dc9178d16b44d040c03b1bf379e35de2f8fdce684479\"}, {\"path\": \"pkgs/parson/README.md\", \"sha256\": \"c66a85d3d6e7a44e204ea8f8ec4db6aa33925833372224b0d87c75726bed13ee\"}, {\"path\": \"pkgs/parson/package.json\", \"sha256\": \"761c4680ac704d7aab7a894e200cff267595013b079d8498f4e08d47e3624306\"}, {\"path\": \"pkgs/parson/parson.c\", \"sha256\": \"cf92ce6aa96ef3ef2757709b104d6974ed0109312105dafe4920c248c937fb1e\"}, {\"path\": \"pkgs/parson/parson.h\", \"sha256\": \"e5f16add5e5cecea716f8e679d72e4d5ecdca88ab45045f38c7cddab3eaa8b33\"}, {\"path\": \"pkgs/parson/tests.c.OFF\", \"sha256\": \"685b70567c3c77b718afda5f68cd1069f322805981bbee17951ce933cfcaa288\"}, {\"path\": \"pkgs/parson/tests/test_1_1.txt\", \"sha256\": \"0a96f86cb738c0e14fe3a854f3185a9c03773b7a4ed2ee9b2ee7e0911acc13af\"}, {\"path\": \"pkgs/parson/tests/test_1_2.txt\", \"sha256\": \"7f9deff2652df58a02ca676ff9494de3d93f18db64c7f20f9596dffb8c92f187\"}, {\"path\": \"pkgs/parson/tests/test_1_3.txt\", \"sha256\": \"45aaef317f170e5490aa4a18cc301f6d5e03ee617980dec1b15403abf6c537f4\"}, {\"path\": \"pkgs/parson/tests/test_2.txt\", \"sha256\": \"c1cfc529e3c0e088018ab7e792714e94ad69354b83c22e51808d5c5930f44088\"}, {\"path\": \"pkgs/parson/tests/test_2_comments.txt\", \"sha256\": \"c62c4788bf2c24b5b8780e8237bf5688afdd22b581e15b40672bf7522aaa8cce\"}, {\"path\": \"pkgs/parson/tests/test_2_pretty.txt\", \"sha256\": \"2e7a6b2e42cffba834dc970bea9a9ee6d0074129c6486830fdb321bbc997b841\"}, {\"path\": \"pkgs/parson/tests/test_5.txt\", \"sha256\": \"96b15c56ac338f9050a5bfc24250ade79818a369b6bcc7ba8f86ee9a18d24e0c\"}, {\"path\": \"pkgs/sdrpp_server/Makefile.inc\", \"sha256\": \"59fe55617f8c019a8d8a582c3210b1fc87345fda44a35ae9d3733146e0ae547a\"}, {\"path\": \"pkgs/sdrpp_server/sdrpp_server.cpp\", \"sha256\": \"9846ee681c43fd7e788250a6350d0e999b9887e26aa603d69908eaed24d61a08\"}, {\"path\": \"pkgs/sdrpp_server/sdrpp_server.h\", \"sha256\": \"87e46fd573be607be4c3e2b6f48cc83970197792b5de45dfc82beba484722ffb\"}, {\"path\": \"pkgs/sdrpp_server/spyserver_protocol.h\", \"sha256\": \"4eb754eb6f704a0613de8de185459b202960cff06de8214b98e212335ba99bc5\"}, {\"path\": \"pkgs/sha256/README.md\", \"sha256\": \"f235f2db71202f1ec662535c6f40ade2610a200184618726f91749ce936ad0eb\"}, {\"path\": \"pkgs/sha256/sha256.cpp\", \"sha256\": \"68bdaba8622baba431e3dcd6a61fc1647e96a7f761834ba138c6f9ef15380bab\"}, {\"path\": \"pkgs/sha256/sha256.h\", \"sha256\": \"73b42e6fa55e096a72aed2177ca1074bf7f9e381df231c85c86ae93cf8d85d52\"}, {\"path\": \"pkgs/sha256/sha256_test.c.OFF\", \"sha256\": \"26256d607df3798a111b81b3d504c7f6c4ed84edfbd66ab1a52f0fd4090f5569\"}, {\"path\": \"pkgs/utf8/utf8.h\", \"sha256\": \"d755564fca4fa2c2f379d1736e30c2d314c8a6a107df82ab3f3b430c9a382faa\"}]"
+        },
+        {
+          "name": "sbom:provenance-verification",
+          "value": "unknown upstream origin"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "vendored:web/pkgs",
+      "licenses": [
+        {
+          "license": {
+            "name": "License evidence; see declared files"
+          }
+        }
+      ],
+      "name": "web/pkgs",
+      "properties": [
+        {
+          "name": "sbom:license-evidence",
+          "value": "[{\"path\": \"web/pkgs/js/coloris/LICENSE\", \"sha256\": \"d4c8ecd8b83c06b41b64083ef41f10e89e59ef194ac91cfed94770aaae33f9de\"}, {\"path\": \"web/pkgs/js/sprintf/LICENSE\", \"sha256\": \"f8287e4dd9480be58c56aca4a55c23b782c43a86e69aabad78fff4df0d29edef\"}, {\"path\": \"web/pkgs/xdLocalStorage/LICENSE\", \"sha256\": \"e7d9f0da3a23cec38f86206b0d0d594ab99aa07e3ad6fc03db1e4e441eece04c\"}]"
+        },
+        {
+          "name": "sbom:license-resolution",
+          "value": "unresolved; manual review required"
+        },
+        {
+          "name": "sbom:role",
+          "value": "declared-vendored-source"
+        },
+        {
+          "name": "sbom:source-manifest",
+          "value": "[{\"path\": \"Makefile\", \"sha256\": \"376ad2c7e4dbe672f87bb76abe7c3d381db7faee12d492fd2b852efce6db94c1\"}, {\"path\": \"web/pkgs/Makefile\", \"sha256\": \"7b954f84f25d511e74930b7b95731c68038032604e41b9b31287337cc8b6f0e7\"}, {\"kind\": \"symlink-target-blob-not-followed\", \"path\": \"web/pkgs/font-awesome\", \"sha256\": \"1214022d2e3a86a7affcc747e7cb7e9603107d1615603868e188460377f5bc9f\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/HELP-US-OUT.txt\", \"sha256\": \"3034ebb0f7c42896648f5303e3499cd7dfe4db010f9578ff45fb42af2884ed6b\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/css/font-awesome.css\", \"sha256\": \"63d7f636a741eb3ef46ad5edf7b9f6aa2c06f3f879aea6aee751ce9b5c4fc343\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/css/font-awesome.min.css\", \"sha256\": \"bde3a79f5811036ce443488ff7459fc24db3e1485951a500763c7d80d4666cb3\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/fonts/FontAwesome.otf\", \"sha256\": \"ecd72f31910a8ee2726fd17bd459be26f230779f3f3ed5f69ebf829e4b12e768\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/fonts/fontawesome-webfont.eot\", \"sha256\": \"50bbe9192697e791e2ee4ef73917aeb1b03e727dff08a1fc8d74f00e4aa812e1\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/fonts/fontawesome-webfont.svg\", \"sha256\": \"8e3586389bb4cd01b3f85bb3b622739bde6627f28bba63a020c223ca9cf1b9ae\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/fonts/fontawesome-webfont.ttf\", \"sha256\": \"ae19e2e4c04f2b04bf030684c4c1db8faf5c8fe3ee03d1e0c409046608b38912\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/fonts/fontawesome-webfont.woff\", \"sha256\": \"adbc4f95eb6d7f2738959cf0ecbc374672fce47e856050a8e9791f457623ac2c\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/fonts/fontawesome-webfont.woff2\", \"sha256\": \"7dacf83f51179de8d7980a513e67ab3a08f2c6272bb5946df8fd77c0d1763b73\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/animated.less\", \"sha256\": \"c7035423d5a1e03d36bcfd6465481e4c4d5c91f316fa878a6e5103afe1b0bbf6\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/bordered-pulled.less\", \"sha256\": \"e3d168a292ba33d4e3215919963a304dc25732a73cebdde6e7ebe4d47ab43eb6\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/core.less\", \"sha256\": \"a4a93d598134f656ac6c7a0a5f375afa941e71e348e68ecf3cd6feb7616acf9e\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/fixed-width.less\", \"sha256\": \"0ef853a3192742d207ea0e793dc8bcc6322dcb9e50d41f4b981c4ebac2dac7ac\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/font-awesome.less\", \"sha256\": \"a5152daf06b59aff5cbc947f30f13087a92d7b67cfaf482c8ca13b9ca2ab2412\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/icons.less\", \"sha256\": \"25a2b29555d5209386d51c9f89dfbe63086ddbb2b22a339c1938449d13667895\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/larger.less\", \"sha256\": \"dfc79d4325804e9ade21ab65145b23b1c4193d24a893690bc47b5c0739ca3c0a\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/list.less\", \"sha256\": \"024abb930e6669f215ddee19f58077571f1cabb7aee1274bf96b226c296b73d3\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/mixins.less\", \"sha256\": \"65c4bb7138772043fafd2167b74c0fd7ac15e57ba7877adecde4b0992950670c\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/path.less\", \"sha256\": \"a0dcbbcd3976f59116268c109767c3b98fe358872f6e9fc1a0d26a337d272b8f\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/rotated-flipped.less\", \"sha256\": \"d67df95488eec84d2d0caf79727825a8ff4b2df90c604151783e3ec2388dad38\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/screen-reader.less\", \"sha256\": \"b32ff7821a7b0a649f9202a02eeb8ce88fe671eb52d61ece50aabdbce21110c6\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/stacked.less\", \"sha256\": \"3f9de6c3e0f1a2bc71579a417d7c415f82f2a3d3f4792161a8588bb8bdd75450\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/less/variables.less\", \"sha256\": \"527983e88c8c699aef0a378c04dc71295cb7653e9a39ea02c4917fb2a2c36669\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_animated.scss\", \"sha256\": \"900e2531ca7544fa8f6e0db9996bd28d3970185ed810717a0a4879da135e5478\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_bordered-pulled.scss\", \"sha256\": \"d1d28d405b9328313c843f7c1a40951ee1a738d632081beb76a0e072b407f549\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_core.scss\", \"sha256\": \"e6e81949b0ac466839c5239a1450967ec32af30eb7c25d1845569621e8a1c8fc\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_fixed-width.scss\", \"sha256\": \"b8b0b3478e04e868ef0cd5fa3fb291524f1932144d1bd3427d156afe369194e9\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_icons.scss\", \"sha256\": \"622409ce76a4eae9d9b7fd3e837a807deccc8dac158cdd1c314ddca1f500b753\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_larger.scss\", \"sha256\": \"fb4e8e7d5d03074da402f544d36bd6adb6adaed7ad816c4bcb3f53fe03273c17\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_list.scss\", \"sha256\": \"d5430a6695febcd9e7f5898041aed2b62060d1b8d7b782e0f4975210a0ddf38e\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_mixins.scss\", \"sha256\": \"2efe3c665c5fecc6fb3f6acdf185fdc0b1871ad074381fa39b581cafc5fa82ce\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_path.scss\", \"sha256\": \"0e035e21bbdf7f14f1453fa126aaf39f0b62479471f3cba649a64dd2daa54e26\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_rotated-flipped.scss\", \"sha256\": \"ff0686d76acde3581d679be874fbf73a8bcae4110fa7b6c7aa08ab204a7f3b7a\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_screen-reader.scss\", \"sha256\": \"1c964c84d5ec33fd35918f260ea3503aaaa4b3f1090b342a6e98db6d047d5e38\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_stacked.scss\", \"sha256\": \"70f33fd079ab708587c63b5884e04b31a3f46fd33923cb046621ff18b1bd99d2\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/_variables.scss\", \"sha256\": \"84d979c01db4ff1e7c4ee71c41ac5fd2f426a8e8ae34f2c66358626e87fb453f\"}, {\"path\": \"web/pkgs/font-awesome-4.6.3/scss/font-awesome.scss\", \"sha256\": \"19450ac2527dade2613fb7883f471b8c336d7cd5d33c74ef2af5663282665e27\"}, {\"path\": \"web/pkgs/js/Ooura_FFT32.js\", \"sha256\": \"31565ea58f0b843b6ec3445fba02ab28ee22464095de40d4891aa262d8e9ee69\"}, {\"path\": \"web/pkgs/js/Ooura_FFT32.min.js\", \"sha256\": \"53499fbc5f8368c85b0f94a4fc5fe6bdf2202d5da0d793c930bc008e1c3b8d66\"}, {\"path\": \"web/pkgs/js/Ooura_FFT32.min.js.gz\", \"sha256\": \"0d613dbaae6f9fa2bfaa7ea24c4574a4ad597c439b8068ff68fc7c5af1ea354b\"}, {\"path\": \"web/pkgs/js/SHA256.js\", \"sha256\": \"a009af205e1a0b0472211c9ebc9fefab3a62d936a54b6d9a64eea98f3eb1605a\"}, {\"path\": \"web/pkgs/js/SHA256.min.js\", \"sha256\": \"855ba6b66a251c5127af15e2179217533fcf0cfecc087da5398c4769b9fac9b1\"}, {\"path\": \"web/pkgs/js/SHA256.min.js.gz\", \"sha256\": \"71bfd66bb1dc1b22d6c1d6116b37d4af5bc2afb0c833e88ca9e68d59bd1d9d49\"}, {\"path\": \"web/pkgs/js/coloris/LICENSE\", \"sha256\": \"d4c8ecd8b83c06b41b64083ef41f10e89e59ef194ac91cfed94770aaae33f9de\"}, {\"path\": \"web/pkgs/js/coloris/README.md\", \"sha256\": \"addace90266804e9235845268a57cdd215edd9a4de872b302320f91acd369e07\"}, {\"path\": \"web/pkgs/js/coloris/coloris.css\", \"sha256\": \"19e24716f37cb679615b2dd825f845831a6128902b241520b6a900081220e891\"}, {\"path\": \"web/pkgs/js/coloris/coloris.js\", \"sha256\": \"2ee03d5403bef14f7dad3cc5d4d68c8658161aeb7a770849beed4c7cc971645a\"}, {\"path\": \"web/pkgs/js/coloris/coloris.min.css\", \"sha256\": \"5bf46c9fa494f4a6384d3e849d6b521ca71ebcbd83acbe0d0802adfc73b96a74\"}, {\"path\": \"web/pkgs/js/coloris/coloris.min.js\", \"sha256\": \"758da7e85de218eb100b6cf4f5d46dfff67f8ac41a60820aab9f59da2f8ec3bf\"}, {\"path\": \"web/pkgs/js/coloris/coloris.min.js.gz\", \"sha256\": \"df77a58a503de44a797e56e11fa7a8d4f9aa8cd3d101acfd94d06eebc0d2fdf3\"}, {\"path\": \"web/pkgs/js/graph.js\", \"sha256\": \"6a5109f7a6e42a1f80e5f46c4834d71a50df6a598aa54e7a03123464041a4206\"}, {\"path\": \"web/pkgs/js/graph.min.js\", \"sha256\": \"8ab503f8deb2ff95e5b8fe0a771bfeae432959a4ccb4c9f2a3d1186cdf625346\"}, {\"path\": \"web/pkgs/js/graph.min.js.gz\", \"sha256\": \"2c4f2f5775e72268990beae5536da62ecd3485b5dbecba398e748cdf9c553310\"}, {\"path\": \"web/pkgs/js/scope.js\", \"sha256\": \"30478e6f88bf89e2b411f35b2f7ea86d97ba44e494e34efd8cad244798e09d05\"}, {\"path\": \"web/pkgs/js/scope.min.js\", \"sha256\": \"fb3f7e6aec6e485f4aecb6e1af49996764ab84d7c90b114c7dca53e5d053c1b3\"}, {\"path\": \"web/pkgs/js/scope.min.js.gz\", \"sha256\": \"8c935f3046ab804473a2fc065b877357798b8c87d4421476d555a4fcb995f4e2\"}, {\"path\": \"web/pkgs/js/sprintf/CHANGELOG.md\", \"sha256\": \"fcdf9bac859871f90fdbf6ba021893d0357088f93f95f8119e4d83173a335f20\"}, {\"path\": \"web/pkgs/js/sprintf/CONTRIBUTORS.md\", \"sha256\": \"36ca680da6f49365adab4a17de1dfa422d647fd6cd79adfe593c62ddf0bfa5ce\"}, {\"path\": \"web/pkgs/js/sprintf/LICENSE\", \"sha256\": \"f8287e4dd9480be58c56aca4a55c23b782c43a86e69aabad78fff4df0d29edef\"}, {\"path\": \"web/pkgs/js/sprintf/README.md\", \"sha256\": \"30980742c1563235f65e6e51cd70e54e717196410d34953e3ab0c271d6fb6d3c\"}, {\"path\": \"web/pkgs/js/sprintf/sprintf.js\", \"sha256\": \"95add43f116385be221745307fae02d06751b01d4f939df1debb17dbe2ebf4eb\"}, {\"path\": \"web/pkgs/js/sprintf/sprintf.min.js\", \"sha256\": \"730f81691285191d9c05349792fccf9a7df0dd47604ebf875ec3a210cb156850\"}, {\"path\": \"web/pkgs/js/sprintf/sprintf.min.js.gz\", \"sha256\": \"b184f81d6923e9b065788f8f359e1dd7af08d39848195819f42b5e78e640a4d9\"}, {\"path\": \"web/pkgs/text-security/text-security-disc.css\", \"sha256\": \"f45662ed3b96996723870e04f2ab6a3ba8eecf7492d2bfedc43f0917eaab23f3\"}, {\"path\": \"web/pkgs/text-security/text-security-disc.eot\", \"sha256\": \"e8ad502857b3c702993fdb2c72d5a0cb4548ded6177abff0eee70ed75149c377\"}, {\"path\": \"web/pkgs/text-security/text-security-disc.min.css\", \"sha256\": \"450666d9f4c0867c3f63e6f1a4e3e2be9c1bb0819635b2762d78c01307bb0710\"}, {\"path\": \"web/pkgs/text-security/text-security-disc.svg\", \"sha256\": \"4b0702a5ab64e7338852161807fc39f2446d5d061249e011e213de41d5547f7e\"}, {\"path\": \"web/pkgs/text-security/text-security-disc.ttf\", \"sha256\": \"bee3d0ec9837676e94c8ee2202d03a4b3abefcae777cd5ab90db4764ea8a52bf\"}, {\"path\": \"web/pkgs/text-security/text-security-disc.woff\", \"sha256\": \"5676579c47c1b09197aea3f17e8171bf757afb675e8183c0ae18baf935a45401\"}, {\"path\": \"web/pkgs/w3-3.4-min.css\", \"sha256\": \"0362900bc7cad88b809f6a48b6c33a315a8cf7d4b959a4ca83db9e824bebda63\"}, {\"path\": \"web/pkgs/w3-3.4.css\", \"sha256\": \"0e972a2db43a979e4b3e67db72cc65007bcd3551cc9ca6ecf5ad5c0328e86252\"}, {\"kind\": \"symlink-target-blob-not-followed\", \"path\": \"web/pkgs/w3.css\", \"sha256\": \"364f913e46f0332efd1e64b2a3c55641ba617c35ce08b21e26fe590a1ef50cb4\"}, {\"path\": \"web/pkgs/w3.min.css\", \"sha256\": \"71621b23b63c217003d9218ff8cf2bc2c6b766bb9e691443287b3688e8baed78\"}, {\"path\": \"web/pkgs/w3color.js\", \"sha256\": \"a61bc0a9dc016380c2e9e17a759cb0106be038c4c0e3e6b450f9ceadf168c732\"}, {\"path\": \"web/pkgs/w3color.min.js\", \"sha256\": \"d87fe6df4a59b6a0ddfd32f19ff55458577f0f9152e90bef9951af96edd0bda4\"}, {\"path\": \"web/pkgs/xdLocalStorage/LICENSE\", \"sha256\": \"e7d9f0da3a23cec38f86206b0d0d594ab99aa07e3ad6fc03db1e4e441eece04c\"}, {\"path\": \"web/pkgs/xdLocalStorage/xd-utils.js\", \"sha256\": \"f9773eb5c89a03f79cd489b64a2950d9cc28ec6e967685c2778a1c1b3bc7bca9\"}, {\"path\": \"web/pkgs/xdLocalStorage/xd-utils.min.js\", \"sha256\": \"15a80f51f119ac68f8db130fd61fdfe26d63e1bbaf7772c19b13011e83525c9a\"}, {\"path\": \"web/pkgs/xdLocalStorage/xdLocalStorage-min.html\", \"sha256\": \"4dc6ff175c767b1ae2ef1e0554d85a2e9ad24ab5ff6af1340ab72a849862bf2a\"}, {\"path\": \"web/pkgs/xdLocalStorage/xdLocalStorage-min.src\", \"sha256\": \"ce3f297409112159d6c633be6478585aa9e6427f610302afc7440ee1347aa0d3\"}, {\"path\": \"web/pkgs/xdLocalStorage/xdLocalStorage.html\", \"sha256\": \"1ccf1ea2556169fea5ddce66e29f65aaa80443867c37998117604d358ac89d28\"}, {\"path\": \"web/pkgs/xdLocalStorage/xdLocalStorage.js\", \"sha256\": \"51a57e65a702da2778cbc85a517c6ca83a965168b703257c18c3508fcdb99d98\"}, {\"path\": \"web/pkgs/xdLocalStorage/xdLocalStorage.min.js\", \"sha256\": \"cb0736c11bddabd469205653e659ca4ee20d4b4b6b6417a29c43789566c64a32\"}, {\"path\": \"web/pkgs/xdLocalStorage/xdLocalStorage.php\", \"sha256\": \"ecd66117ffc82d14f960f0405be734b1bc1425420a77eaa428feae1ae3ac72f5\"}, {\"path\": \"web/pkgs/xdLocalStorage/xdLocalStoragePostMessageApi.js\", \"sha256\": \"33253b154b3c665c292cc192fa16c95cb13367e2256cd464a374b087ed194400\"}]"
+        },
+        {
+          "name": "sbom:provenance-verification",
+          "value": "unknown upstream origin"
+        }
+      ],
+      "type": "library"
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "unknown",
+      "assemblies": [
+        "git:https://github.com/wave-owl/KiwiSDR@5b0553a121c13146a3fe98ec88a516c4a22a5579"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [],
+      "ref": "cmake:4feb0bce05305fc21ff6ff934188cc5d396b5df1c1eeb52dcbbd164af4cbb21c"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:5e9fd5209f804e1e104899ac42666432a72fff034383f961f22e0b0b514ad840"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:979c3204ad2ff2c425c15a659f2625c660718052e2debd732a448f5e45c35f27"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:c0c0bd3f2863c1a783914d72d7278b42a24cb07204ee9178200c4a0740fcfd9e"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:10"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:11"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:12"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:13"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:14"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:15"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:16"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:17"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:18"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:19"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:20"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:21"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:22"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:23"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:24"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:25"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:26"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:27"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:28"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:29"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:3"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:30"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:31"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:32"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:33"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:34"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:35"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:36"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:37"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:38"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:39"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:4"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:40"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:41"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:42"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:43"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:44"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:45"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:46"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:47"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:48"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:49"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:5"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:50"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:51"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:52"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:53"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:54"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:55"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:56"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:6"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:7"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:8"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:9"
+    },
+    {
+      "dependsOn": [
+        "cmake:4feb0bce05305fc21ff6ff934188cc5d396b5df1c1eeb52dcbbd164af4cbb21c",
+        "cmake:5e9fd5209f804e1e104899ac42666432a72fff034383f961f22e0b0b514ad840",
+        "cmake:979c3204ad2ff2c425c15a659f2625c660718052e2debd732a448f5e45c35f27",
+        "cmake:c0c0bd3f2863c1a783914d72d7278b42a24cb07204ee9178200c4a0740fcfd9e",
+        "external-library:0",
+        "external-library:1",
+        "external-library:10",
+        "external-library:11",
+        "external-library:12",
+        "external-library:13",
+        "external-library:14",
+        "external-library:15",
+        "external-library:16",
+        "external-library:17",
+        "external-library:18",
+        "external-library:19",
+        "external-library:2",
+        "external-library:20",
+        "external-library:21",
+        "external-library:22",
+        "external-library:23",
+        "external-library:24",
+        "external-library:25",
+        "external-library:26",
+        "external-library:27",
+        "external-library:28",
+        "external-library:29",
+        "external-library:3",
+        "external-library:30",
+        "external-library:31",
+        "external-library:32",
+        "external-library:33",
+        "external-library:34",
+        "external-library:35",
+        "external-library:36",
+        "external-library:37",
+        "external-library:38",
+        "external-library:39",
+        "external-library:4",
+        "external-library:40",
+        "external-library:41",
+        "external-library:42",
+        "external-library:43",
+        "external-library:44",
+        "external-library:45",
+        "external-library:46",
+        "external-library:47",
+        "external-library:48",
+        "external-library:49",
+        "external-library:5",
+        "external-library:50",
+        "external-library:51",
+        "external-library:52",
+        "external-library:53",
+        "external-library:54",
+        "external-library:55",
+        "external-library:56",
+        "external-library:6",
+        "external-library:7",
+        "external-library:8",
+        "external-library:9",
+        "vendored:pkgs",
+        "vendored:web/pkgs"
+      ],
+      "ref": "git:https://github.com/wave-owl/KiwiSDR@5b0553a121c13146a3fe98ec88a516c4a22a5579"
+    },
+    {
+      "dependsOn": [],
+      "ref": "vendored:pkgs"
+    },
+    {
+      "dependsOn": [],
+      "ref": "vendored:web/pkgs"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "git:https://github.com/wave-owl/KiwiSDR@5b0553a121c13146a3fe98ec88a516c4a22a5579",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/wave-owl/KiwiSDR/tree/5b0553a121c13146a3fe98ec88a516c4a22a5579"
+        }
+      ],
+      "name": "wave-owl/KiwiSDR",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "source-root"
+        },
+        {
+          "name": "sbom:git-commit",
+          "value": "5b0553a121c13146a3fe98ec88a516c4a22a5579"
+        },
+        {
+          "name": "sbom:git-tree",
+          "value": "14e9a4cb17e29cb30eff329e26d6d3e9dd4a828c"
+        },
+        {
+          "name": "sbom:source-repository",
+          "value": "https://github.com/wave-owl/KiwiSDR"
+        },
+        {
+          "name": "sbom:release-tags",
+          "value": "[]"
+        },
+        {
+          "name": "sbom:snapshot",
+          "value": "true"
+        },
+        {
+          "name": "sbom:snapshot-source-commit",
+          "value": "5b0553a121c13146a3fe98ec88a516c4a22a5579"
+        },
+        {
+          "name": "sbom:snapshot-scope",
+          "value": "Initial immutable source snapshot, before the tooling commit; not a release report."
+        }
+      ],
+      "type": "application",
+      "version": "5b0553a121c13146a3fe98ec88a516c4a22a5579"
+    },
+    "properties": [
+      {
+        "name": "sbom:scope",
+        "value": "Source repository inventory only; completeness is UNKNOWN. Syft inventories tracked source/package manifests. Gitlinks and declared vendored/model evidence are inspected at immutable pins. CMake declarations are conditional requirements, not resolved installations. This is NOT proof of operating-system packages, static-link closure, build-time resolution, or the contents of release binaries."
+      },
+      {
+        "name": "sbom:generation-status",
+        "value": "success"
+      },
+      {
+        "name": "sbom:generation-errors",
+        "value": "[]"
+      }
+    ],
+    "timestamp": "2026-11-02T16:53:56.099703+00:00",
+    "tools": {
+      "components": [
+        {
+          "author": "anchore",
+          "name": "syft",
+          "type": "application",
+          "version": "1.55.0"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:e31cc0c2-170f-495a-8887-5d28f8d7671d",
+  "specVersion": "1.6",
+  "version": 1
+}
